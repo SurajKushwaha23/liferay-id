@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<feature
+	id="com.liferay.ide.maven"
+	label="Liferay IDE Maven Support (includes Eclipse m2e plugins)"
+	plugin="com.liferay.ide.maven.ui"
+	provider-name="Liferay, Inc."
+	version="3.9.7.202207131011-ga8"
+>
+
+	<description url="http://www.liferay.com/community/liferay-projects/liferay-ide/overview">
+	  Maven integration for Liferay IDE. Extends m2e-core and m2e-wtp plugins to support Liferay IDE development
+			and also provide lifecycle metadata mapping for liferay-maven-plugin executions.
+	</description>
+
+	<copyright url="http://www.liferay.com/products/liferay-portal/lgpl">
+	  /**
+* Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+*
+* This library is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License as published by the Free Software Foundation; either
+* version 2.1 of the License, or (at your option) any later
+* version.
+*
+* This library is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty
+* of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
+* the GNU Lesser General Public License for more details.
+*/
+	</copyright>
+
+	<license url="http://www.gnu.org/licenses/lgpl-2.1.html">
+	  Liferay IDE is free software distributed under the terms of the Lesser GNU Public License. See URL for full license text. http://www.gnu.org/licenses/lgpl-2.1.html
+	</license>
+
+	<requires>
+		<import feature="org.eclipse.m2e.wtp.feature" match="greaterOrEqual" version="1.4.0" />
+		<import feature="org.eclipse.m2e.wtp.jsf.feature" match="greaterOrEqual" version="1.4.0" />
+		<import feature="org.eclipse.m2e.feature" match="greaterOrEqual" version="1.9.0" />
+		<import feature="org.sonatype.m2e.mavenarchiver.feature" match="greaterOrEqual" version="0.17" />
+		<import feature="com.liferay.ide.eclipse.tools" match="greaterOrEqual" version="3.0.0" />
+		<import feature="org.sonatype.tycho.m2e.feature" match="greaterOrEqual" version="0.8.0" />
+		<import feature="com.ianbrandt.tools.m2e.mdp.feature" match="greaterOrEqual" version="0.0.4" />
+		<import feature="bndtools.m2e.feature" match="greaterOrEqual" version="4.1.0" />
+	</requires>
+
+	<plugin
+		download-size="151"
+		id="com.liferay.ide.maven.core"
+		install-size="333"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="53"
+		id="com.liferay.ide.maven.ui"
+		install-size="91"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<!--plugin
+		 id="org.slf4j.api"
+		 download-size="0"
+		 install-size="0"
+		 version="0.0.0"
+		 unpack="false"/-->
+
+</feature>

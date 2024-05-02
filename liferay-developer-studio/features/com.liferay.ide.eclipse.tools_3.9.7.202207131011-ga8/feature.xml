@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<feature
+	id="com.liferay.ide.eclipse.tools"
+	label="Liferay IDE"
+	plugin="com.liferay.ide.ui"
+	provider-name="Liferay, Inc."
+	version="3.9.7.202207131011-ga8"
+>
+
+	<description url="http://www.liferay.com/community/liferay-projects/liferay-ide/overview">
+	  Liferay IDE is the official set of Eclipse plugins for supporting Liferay Portal development platform.
+	</description>
+
+	<copyright url="http://www.liferay.com/products/liferay-portal/lgpl">
+	  /**
+* Copyright (c) 2000-present Liferay, Inc. All rights reserved.
+*
+* This library is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License as published by the Free Software Foundation; either
+* version 2.1 of the License, or (at your option) any later
+* version.
+*
+* This library is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty
+* of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
+* the GNU Lesser General Public License for more details.
+*/
+	</copyright>
+
+	<license url="http://www.gnu.org/licenses/lgpl-2.1.html">
+	  Liferay IDE is free software distributed under the terms of the Lesser GNU Public License. See URL for full license text. http://www.gnu.org/licenses/lgpl-2.1.html
+	</license>
+
+	<requires>
+		<import feature="bndtools.main.feature" match="perfect" version="5.2.0.REL-202010142003-gc979114" />
+		<import feature="org.apache.ivy.feature" match="greaterOrEqual" version="2.3.0" />
+		<import feature="org.apache.ivyde.feature" match="greaterOrEqual" version="2.2.0" />
+		<import feature="org.eclipse.buildship" match="greaterOrEqual" version="2.1.1" />
+		<import feature="org.eclipse.jsf.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.common.fproj.enablement.jdt" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.enterprise_ui.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.server_adapters.ext.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.server_adapters.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.server_ui.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.jst.web_ui.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.sapphire" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.java" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.java.jdt" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.modeling.xml" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.osgi" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.platform" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.ui" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.ui.swt.gef" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.sapphire.ui.swt.xml.editor" match="compatible" version="9.1.0" />
+		<import feature="org.eclipse.wst.common.fproj" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.wst.common_ui.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.wst.server_adapters.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.wst.xml_ui.feature" match="greaterOrEqual" version="3.2.0" />
+		<import feature="org.eclipse.wst.xml.search.core-feature" match="greaterOrEqual" version="1.0.0" />
+		<import feature="org.eclipse.tm.terminal.connector.telnet.feature" match="greaterOrEqual" version="4.0.0" />
+		<import feature="org.eclipse.tm.terminal.view.feature" match="greaterOrEqual" version="4.0.0" />
+	</requires>
+
+	<plugin
+		download-size="1874"
+		id="com.liferay.ide.core"
+		install-size="2248"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="2619"
+		id="com.liferay.ide.ui"
+		install-size="2935"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="313"
+		id="com.liferay.ide.portlet.core"
+		install-size="645"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="346"
+		id="com.liferay.ide.portlet.ui"
+		install-size="646"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="27897"
+		id="com.liferay.ide.project.core"
+		install-size="32685"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="596"
+		id="com.liferay.ide.project.ui"
+		install-size="1062"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="5672"
+		id="com.liferay.ide.server.core"
+		install-size="8500"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="84"
+		id="com.liferay.ide.server.tomcat.core"
+		install-size="172"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="78"
+		id="com.liferay.ide.server.tomcat.ui"
+		install-size="137"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="253"
+		id="com.liferay.ide.server.ui"
+		install-size="448"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="42"
+		id="com.liferay.ide.layouttpl.core"
+		install-size="80"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="114"
+		id="com.liferay.ide.layouttpl.ui"
+		install-size="199"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="42"
+		id="com.liferay.ide.theme.core"
+		install-size="82"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="83"
+		id="com.liferay.ide.service.core"
+		install-size="139"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="87"
+		id="com.liferay.ide.service.ui"
+		install-size="178"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="96"
+		id="com.liferay.ide.hook.core"
+		install-size="180"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="146"
+		id="com.liferay.ide.hook.ui"
+		install-size="275"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="1682"
+		id="com.liferay.ide.sdk.core"
+		install-size="1809"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="65"
+		id="com.liferay.ide.ui.snippets"
+		install-size="182"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="170"
+		id="com.liferay.ide.xml.search.ui"
+		install-size="365"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="4024"
+		id="com.liferay.ide.gradle.core"
+		install-size="4660"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="98"
+		id="com.liferay.ide.gradle.ui"
+		install-size="196"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="604"
+		id="com.liferay.ide.upgrade.plan.core"
+		install-size="740"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="714"
+		id="com.liferay.ide.upgrade.plan.ui"
+		install-size="904"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="1484"
+		id="com.liferay.ide.upgrade.problems.core"
+		install-size="4734"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="53"
+		id="com.liferay.ide.upgrade.problems.ui"
+		install-size="110"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="43"
+		id="com.liferay.ide.upgrade.commands.core"
+		install-size="55"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+
+	<plugin
+		download-size="77"
+		id="com.liferay.ide.upgrade.commands.ui"
+		install-size="150"
+		unpack="false"
+		version="3.9.7.202207131011-ga8"
+	/>
+</feature>
